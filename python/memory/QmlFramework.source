@@ -1,0 +1,539 @@
+Animation/NQModeController.cpp:109:    m_node1Anim = new NQParallelAnimation;
+Animation/NQModeController.cpp:110:    m_node2Anim = new NQParallelAnimation;
+Animation/NQModeController.cpp:111:    m_fadeIn = new NQFadeIn;
+Animation/NQModeController.cpp:112:    m_fadeOut = new NQFadeOut;
+Animation/NQModeController.cpp:113:    m_proxy = new NQSignalProxy(this);
+Animation/NQModeController.cpp:151:        m_appCtrl = new NQModeController;
+Animation/NQL121.cpp:27:    m_infoFadeIn = new NQFadeIn;
+Animation/NQL121.cpp:32:    m_infoAnim = new NQPropertyAnimation;
+Animation/NQL121.cpp:38:    m_funcSeqGrp = new NQSequentialAnimation;
+Animation/NQL121.cpp:41:    m_pause = new NQPauseAnimation;
+Animation/NQL121.cpp:45:    m_funcPrlGrp = new NQParallelAnimation;
+Animation/NQL121.cpp:48:    m_funcFadeIn = new NQFadeIn;
+Animation/NQL121.cpp:53:    m_funcAnim = new NQPropertyAnimation;
+Animation/NQL302.cpp:31:    m_fadeIn = new NQFadeIn;
+Animation/NQL302.cpp:35:    m_topMenuFadeIn = new NQFadeIn;
+Animation/NQL302.cpp:39:    m_topMenuAnim = new NQPropertyAnimation;
+Animation/NQL302.cpp:44:    m_fadeOut = new NQFadeOut;
+Animation/NQL120.cpp:29:    m_fadeIn = new NQFadeIn;
+Animation/NQAnimationType.cpp:178:    QParallelAnimationGroupJob *ag = new QParallelAnimationGroupJob;
+Animation/NQAnimationType.cpp:190:                anim = new QQuickAnimatorProxyJob(anim, this);
+Animation/NQAnimationType.cpp:233:    QSequentialAnimationGroupJob *ag = new QSequentialAnimationGroupJob;
+Animation/NQAnimationType.cpp:252:                anim = new QQuickAnimatorProxyJob(anim, this);
+Animation/NQScreenSpliter.cpp:24:        m_spliter = new NQParallelAnimation;
+Animation/NQTA012.cpp:30:    m_fadeIn = new NQFadeIn;
+Animation/NQTA012.cpp:35:    m_titleAnim = new NQPropertyAnimation;
+Animation/NQTA012.cpp:41:    m_subMenuAnim = new NQPropertyAnimation;
+Animation/NQTA012.cpp:47:    m_backgroundAnim = new NQPropertyAnimation;
+Animation/NQTA012.cpp:122:    m_fadeIn = new NQFadeIn;
+Animation/NQTA012.cpp:127:    m_funcAnim = new NQPropertyAnimation;
+API/NQPrivateAPI.cpp:54:        pSysDelegate = new NQSystemDelegate();
+API/NQPrivateAPI.cpp:177:        pJsApi = new NQAPI4JS();
+basicControl/NQItemView.cpp:152:        transitionableItem = new NQItemViewTransitionableItem(item);
+basicControl/NQItemView.cpp:331:            d->model = new QQmlDelegateModel(qmlContext(this), this);
+basicControl/NQItemView.cpp:385:        d->model = new QQmlDelegateModel(qmlContext(this));
+basicControl/NQItemView.cpp:2752:        transitioner = new NQItemViewTransitioner;
+basicControl/NQItemView.cpp:2981:        QQmlContext *context = new QQmlContext(
+basicControl/NQItemView.cpp:2996:        item = new QQuickItem;
+basicControl/NQListView.cpp:309:    FxListItemSG *listItem = new FxListItemSG(item, q, false);
+basicControl/NQListView.cpp:662:            FxListItemSG *newHighlight = new FxListItemSG(item, q, true);
+basicControl/NQListView.cpp:781:        QQmlContext *context = new QQmlContext(
+basicControl/NQListView.cpp:1163:        footer = new FxListItemSG(_item, q, true);
+basicControl/NQListView.cpp:1219:        header = new FxListItemSG(_item, q, true);
+basicControl/NQListView.cpp:1797:    : NQItemView(*(new NQListViewPrivate), parent, type)
+basicControl/NQListView.cpp:2356:        d->sectionCriteria = new NQViewSection(this);
+basicControl/NQListView.cpp:3461:    return new NQListViewAttached(obj);
+basicControl/NQGlow.cpp:37:        engine = new QQmlEngine;
+basicControl/NQTextNodeEngine.cpp:236:        QQuickDefaultClipNode *currentClipNode = m_hasSelection ? new QQuickDefaultClipNode(QRectF()) : 0;
+basicControl/NQTextNodeEngine.cpp:302:                    currentClipNode = new QQuickDefaultClipNode(QRectF());
+basicControl/NQSourceProxy.cpp:23:    m_ShaderEffectSource = new QQuickShaderEffectSource(this);
+basicControl/NQRectangle.cpp:60:            pen = new NQPen;
+basicControl/NQRectangle.cpp:376:: NQItem(*(new NQRectanglePrivate), parent, NQItem_Type_NQRectangle)
+basicControl/NQGridView.cpp:279:    return new FxGridItemSG(item, q, false);
+basicControl/NQGridView.cpp:573:            FxGridItemSG *newHighlight = new FxGridItemSG(item, q, true);
+basicControl/NQGridView.cpp:676:        header = new FxGridItemSG(item, q, true);
+basicControl/NQGridView.cpp:736:        footer = new FxGridItemSG(item, q, true);
+basicControl/NQGridView.cpp:1060:    : NQItemView(*(new NQGridViewPrivate), parent, type)
+basicControl/NQGridView.cpp:2647:    return new NQGridViewAttached(obj);
+basicControl/NQTextureProvider.cpp:475:    NQTextureFactory *ret = new NQTextureFactory;
+basicControl/NQTextureWatcher.cpp:63:        m_instance = new NQTextureWatcher();
+basicControl/NQDrag.cpp:151:        QCoreApplication::postEvent(q, new QEvent(QEvent::User));
+basicControl/NQDrag.cpp:161:        QCoreApplication::postEvent(q, new QEvent(QEvent::User));
+basicControl/NQDrag.cpp:246:    : QObject(*new NQDragAttachedPrivate, parent)
+basicControl/NQDrag.cpp:541:        mimeData = new NQDragMimeData;
+basicControl/NQDrag.cpp:714:    QDrag *drag = new QDrag(q);
+basicControl/NQDrag.cpp:715:    QMimeData *mimeData = new QMimeData();
+basicControl/NQDrag.cpp:954:    return new NQDragAttached(obj);
+basicControl/NQImageDecoder.cpp:36:        m_instance = new NQImageDecoder;
+basicControl/NQTextUtil.cpp:192:        QSGNode *node = new QSGNode;
+basicControl/NQTextUtil.cpp:194:            QSGDefaultRectangleNode *rectNode = new QSGDefaultRectangleNode;
+basicControl/NQTextUtil.cpp:206:        QSGDefaultRectangleNode *node = new QSGDefaultRectangleNode;
+basicControl/NQTriangle.cpp:185:        node = new QSGGeometryNode;
+basicControl/NQTriangle.cpp:187:        geometry = new QSGGeometry(QSGGeometry::defaultAttributes_ColoredPoint2D(), 3);
+basicControl/NQTriangle.cpp:192:        QSGVertexColorMaterial *material = new QSGVertexColorMaterial;
+basicControl/NQStyledText.cpp:151:    : d(new NQStyledTextPrivate(string, layout, imgTags, baseUrl, context, preloadImages, fontSizeModified))
+basicControl/NQStyledText.cpp:794:        NQStyledTextImgTag *image = new NQStyledTextImgTag;
+basicControl/NQStyledText.cpp:829:                image->pix = new QQuickPixmap(context->engine(), url, image->size);
+basicControl/NQText.cpp:199:        QQuickPixmap *curPixmap = new QQuickPixmap(context->engine(), url);
+basicControl/NQText.cpp:641:        textLine = new NQTextLine;
+basicControl/NQText.cpp:1100:            elideLayout = new QTextLayout;
+basicControl/NQText.cpp:1202:                image->pix = new QQuickPixmap(qmlEngine(q), url, image->size);
+basicControl/NQText.cpp:1258:        extra.value().doc = new NQTextDocumentWithImageResources(q);
+basicControl/NQText.cpp:1309:    : NQImplicitSizeItem(*(new NQTextPrivate), parent, type)
+basicControl/NQText.cpp:2806:        node = new NQTextNode(this);
+basicControl/NQDropShadow.cpp:39:        engine = new QQmlEngine;
+basicControl/NGSGPainterNode.cpp:108:            m_gl_device = new QOpenGLPaintDevice(m_fboSize);
+basicControl/NGSGPainterNode.cpp:261:                m_multisampledFbo = new QOpenGLFramebufferObject(m_fboSize, format);
+basicControl/NGSGPainterNode.cpp:266:                m_fbo = new QOpenGLFramebufferObject(m_fboSize, format);
+basicControl/NGSGPainterNode.cpp:272:            m_fbo = new QOpenGLFramebufferObject(m_fboSize, format);
+basicControl/NGSGPainterNode.cpp:284:    NGSGPainterTexture *texture = new NGSGPainterTexture;
+basicControl/NQGestureItem.cpp:304:                NQFlickGesture* newg = new NQFlickGesture();
+basicControl/NQGestureItem.cpp:314:                NQTapGesture* newg = new NQTapGesture();
+basicControl/NQGestureItem.cpp:324:                NQDoubleTapGesture* newg = new NQDoubleTapGesture();
+basicControl/NQGestureItem.cpp:334:                NQShortPressGesture* newg = new NQShortPressGesture();
+basicControl/NQGestureItem.cpp:344:                NQLongPressGesture* newg = new NQLongPressGesture();
+basicControl/NQGestureItem.cpp:354:                NQPinchGesture* newg = new NQPinchGesture();
+basicControl/NQGestureItem.cpp:364:                NQPadDepressGesture* newg = new NQPadDepressGesture();
+basicControl/NQGestureItem.cpp:373:                NQDragGesture* newg = new NQDragGesture();
+basicControl/NQGestureItem.cpp:382:                NQ2DragGesture* newg = new NQ2DragGesture();
+basicControl/NQGestureItem.cpp:391:                NQRotateGesture* newg = new NQRotateGesture();
+basicControl/NQGestureItem.cpp:400:                NQ2FlickGesture* newg = new NQ2FlickGesture();
+basicControl/NQOutline.cpp:36:        engine = new QQmlEngine;
+basicControl/NQLinearGradient.cpp:37:        engine = new QQmlEngine;
+basicControl/NQPaintedItem.cpp:125:    : NQItem(*(new NQPaintedItemPrivate), parent, NQItem_Type_NQPaintedItem)
+basicControl/NQPaintedItem.cpp:535:        node = new NGSGPainterNode(this);
+basicControl/NQPaintedItem.cpp:585:        d->textureProvider = new NQPaintedItemTextureProvider();
+basicControl/NQItem.cpp:80:        s_instance = new NQItemEventKeeper();
+basicControl/NQItem.cpp:95: m_padEventReceiverListener(new NQItemDestroyedListener())
+basicControl/NQItem.cpp:206:        NQItemEventKeeper::TouchPointExtendData* data = new NQItemEventKeeper::TouchPointExtendData();
+basicControl/NQItem.cpp:261:        QTouchEvent* touchEvent = new QTouchEvent(QEvent::TouchCancel, m_lastTouchEvent->device(), Qt::NoModifier, Qt::TouchPointReleased, touchPoints);
+basicControl/NQItem.cpp:383:        NQGestureEvent* gEvent = new NQGestureEvent;
+basicControl/NQItem.cpp:574:    : QQuickItem(*(new QQuickItemPrivate), parent)
+basicControl/NQItem.cpp:713:            nqItem->m_pItemData = new NQItemData;
+basicControl/NQItem.cpp:778:        m_pItemData = new NQItemData;
+basicControl/NQItem.cpp:828:                m_pItemData->m_frameBound4OutFrame = new QSGDefaultRectangleNode;
+basicControl/NQItem.cpp:841:            QSGDefaultRectangleNode* rectNode = new QSGDefaultRectangleNode;
+basicControl/NQItem.cpp:1722:    NQGestureEvent* gestureEvent = new NQGestureEvent();
+basicControl/NQItem.cpp:1827:        QMouseEvent *me = new QMouseEvent(type, transformNeeded ? item->mapFromScene(p.scenePos()) : p.pos(), p.scenePos(), p.screenPos(),
+basicControl/NQItem.cpp:1887:        QTouchEvent* touchEvent = new QTouchEvent(QEvent::TouchCancel, keeper->m_lastTouchEvent->device(), Qt::NoModifier, Qt::TouchPointReleased, touchPoints);
+basicControl/NQItem.cpp:1902:    NQGestureEvent* gEvent = new NQGestureEvent;
+basicControl/NQItem.cpp:1914:                    NQLongPressGesture* newGes = new NQLongPressGesture();
+basicControl/NQItem.cpp:1928:                    NQPinchGesture* newGes = new NQPinchGesture();
+basicControl/NQItem.cpp:1943:                    NQPadDepressGesture* newGes = new NQPadDepressGesture();
+basicControl/NQItem.cpp:1958:                    NQDragGesture* newGes = new NQDragGesture();
+basicControl/NQItem.cpp:1974:                    NQ2DragGesture* newGes = new NQ2DragGesture();
+basicControl/NQItem.cpp:1990:                    NQRotateGesture* newGes = new NQRotateGesture();
+basicControl/NQItem.cpp:2401:        m_pItemData = new NQItemData;
+basicControl/NQItem.cpp:2412:        m_pItemData = new NQItemData;
+basicControl/NQItem.cpp:2494:        m_roundedCenter = new QPointF;
+basicControl/NQClearItem.cpp:144:        node = new ClearNode;
+basicControl/NQTransitionManager.cpp:47:: d(new NQTransitionManagerPrivate)
+basicControl/NQMultiPointTouchItem.cpp:758:        _dtp = new NQTouchPoint(false);
+basicControl/NQMultiPointTouchItem.cpp:791:        _dtp = new NQTouchPoint(false);
+basicControl/NQTextEdit.cpp:191:    : NQImplicitSizeItem(*(new NQTextEditPrivate), parent, NQItem_Type_NQTextEdit)
+basicControl/NQTextEdit.cpp:2084:            rootNode = new RootNode;
+basicControl/NQTextEdit.cpp:2318:    document = new NQTextDocumentWithImageResources(q);
+basicControl/NQTextEdit.cpp:2320:    control = new NQTextControl(document, q);
+basicControl/NQTextEdit.cpp:2736:    it = textNodeMap.insert(it, new TextNode(startPos, node));
+basicControl/NQTextEdit.cpp:2746:    NQTextNode* node = new NQTextNode(q);
+basicControl/NQTextEdit.cpp:2880:        d->quickDocument = new NQTextDocument(this);
+basicControl/NQImageBase.cpp:28:: NQImplicitSizeItem(*(new NQImageBasePrivate), parent, type)
+basicControl/NQTransition.cpp:259:    NQParallelAnimationWrapper *group = new NQParallelAnimationWrapper();
+basicControl/NQTransition.cpp:270:                anim = new QQuickAnimatorProxyJob(anim, d->animations.at(i));
+basicControl/NQTransition.cpp:280:    NQTransitionInstance *wrapper = new NQTransitionInstance(d, group);
+basicControl/NQMouseArea.cpp:458:  : NQItem(*(new NQMouseAreaPrivate), parent, NQItem_Type_NQMouseArea)
+basicControl/NQTimeLine.cpp:340:    d = new NQTimeLinePrivate(this);
+basicControl/NQBorderImage.cpp:156:: NQImageBase(*(new NQBorderImagePrivate), parent, NQItem_Type_NQBorderImage)
+basicControl/NQBorderImage.cpp:727:        border = new NQScaleGrid(q);
+basicControl/NQTextNode.cpp:194:    m_engine.reset(new NQTextNodeEngine);
+basicControl/NQTextureProvider.h:186:                texture = new NQPngTexture;
+basicControl/NQTextureProvider.h:191:                texture = new NQPvrTexture;
+basicControl/NQTextureProvider.h:197:                texture = new NQRawTexture;
+basicControl/NQTextDocument.cpp:45:    : QObject(*(new NQTextDocumentPrivate), parent)
+basicControl/NQTextInput.cpp:61:    : NQImplicitSizeItem(*(new NQTextInputPrivate), parent, NQItem_Type_NQTextInput)
+basicControl/NQTextInput.cpp:2059:        node = new NQTextNode(this);
+basicControl/NQTextInput.cpp:4039:    m_maskData = new MaskInputData[m_maxLength];
+basicControl/NQItemViewTransition.cpp:561:        transition = new NQItemViewTransitionJob;
+basicControl/NQItemViewTransition.cpp:945:    return new QQuickViewTransitionAttached(obj);
+basicControl/NQImage.cpp:97:    : NQImageBase(*(new NQImagePrivate), parent, type)
+basicControl/NQImage.cpp:521:        dd->provider = new NQImageTextureProvider;
+basicControl/NQPositioners.cpp:110:        transitionableItem = new NQItemViewTransitionableItem(item);
+basicControl/NQPositioners.cpp:129:    : NQImplicitSizeItem(*(new NQBasePositionerPrivate), parent, type)
+basicControl/NQPositioners.cpp:217:        d->transitioner = new NQItemViewTransitioner;
+basicControl/NQPositioners.cpp:235:        d->transitioner = new NQItemViewTransitioner;
+basicControl/NQPositioners.cpp:263:        d->transitioner = new NQItemViewTransitioner;
+basicControl/NQPositioners.cpp:446:    return new NQPositionerAttached(obj);
+basicControl/NQPositioners.cpp:958:: NQBasePositioner(*new NQRowPrivate, Horizontal, parent, NQItem_Type_NQRow)
+basicControl/NQPositioners.cpp:1241:    : NQBasePositioner(*new NQGridPrivate, Both, parent, NQItem_Type_NQGrid)
+basicControl/NQPositioners.cpp:1856:: NQBasePositioner(*(new NQFlowPrivate), Both, parent, NQItem_Type_NQFlow)
+basicControl/NQTextControl.cpp:586:    : QObject(*new NQTextControlPrivate, parent)
+basicControl/NQTextControl.cpp:1683:    return new NQTextEditMimeData(fragment);
+basicControl/NQFlickable.cpp:311:  : contentItem(new NQItem)
+basicControl/NQFlickable.cpp:348:        contentReceiver = new NGContentResolver();
+basicControl/NQFlickable.cpp:349:        resolverNotifyReceiver = new FlickableResolverNotifyReceiver();
+basicControl/NQFlickable.cpp:826:  : NQItem(*(new NQFlickablePrivate), parent, type)
+basicControl/NQFlickable.cpp:1002:        d->visibleArea = new NQFlickableVisibleArea(this);
+basicControl/NQFlickable.cpp:2010:            d->hData.transitionToBounds = new NQFlickableReboundTransition(this, QLatin1String("x"));
+basicControl/NQFlickable.cpp:2013:            d->vData.transitionToBounds = new NQFlickableReboundTransition(this, QLatin1String("y"));
+CustomControl/NQACTemp.cpp:653:    QMouseEvent* pressEvent = new QMouseEvent(QMouseEvent::MouseButtonPress, localPos, Qt::LeftButton, Qt::LeftButton, Qt::NoModifier);
+CustomControl/NQACTemp.cpp:675:    QMouseEvent* moveEvent = new QMouseEvent(QMouseEvent::MouseMove, localPos, Qt::LeftButton, Qt::LeftButton, Qt::NoModifier);
+CustomControl/NQACTemp.cpp:798:    m_carouselBg = new NQItem(this);
+CustomControl/NQACTemp.cpp:806:    m_carousel = new NQCarousel(m_carouselBg);
+CustomControl/NQACTemp.cpp:864:    QQmlContext *context = new QQmlContext(
+CustomControl/NQACTemp.cpp:891:        m_contentReceiver = new NGContentResolver();
+CustomControl/NQACTemp.cpp:892:        m_resolverNotifyReceiver = new ACTempResolverNotifyReceiver();
+CustomControl/NQImagePlayer.cpp:119:      m_data(new myImagePlayerPrivate())
+CustomControl/NQButton.cpp:272:  , m_data(new myButtonPrivate())
+CustomControl/NQButton.cpp:1138:            m_data->m_animPressed = new NQPropertyAnimation(this);
+CustomControl/NQButton.cpp:1672:            m_data->m_animReleased = new NQPropertyAnimation(this);
+CustomControl/NQButton.cpp:2152:        m_data->m_bgCover = new NQBorderImage(this);
+CustomControl/NQButton.cpp:2211:                    p = new NQCCParticle(this);
+CustomControl/NQButton.cpp:2216:                    m_data->m_cursorCover.push_back(new NQImage(this));
+CustomControl/NQButton.cpp:2217:                    m_data->m_cursorCover.push_back(new NQImage(this));
+CustomControl/NQButton.cpp:2218:                    m_data->m_particleCover.push_back(new NQImage(this));
+CustomControl/NQButton.cpp:2222:                    p = new NQCCParticle(this);
+CustomControl/NQButton.cpp:2227:                    p = new NQCCParticle(this);
+CustomControl/NQButton.cpp:2232:                    m_data->m_cursorCover.push_back(new NQImage(this));
+CustomControl/NQButton.cpp:2233:                    m_data->m_cursorCover.push_back(new NQImage(this));
+CustomControl/NQButton.cpp:2234:                    m_data->m_cursorCover.push_back(new NQImage(this));
+CustomControl/NQButton.cpp:2235:                    m_data->m_cursorCover.push_back(new NQImage(this));
+CustomControl/NQButton.cpp:2236:                    m_data->m_particleCover.push_back(new NQImage(this));
+CustomControl/NQButton.cpp:2237:                    m_data->m_particleCover.push_back(new NQImage(this));
+CustomControl/NQButton.cpp:2238:                    m_data->m_checkedCover.push_back(new NQImage(this));
+CustomControl/NQButton.cpp:2239:                    m_data->m_checkedCover.push_back(new NQImage(this));
+CustomControl/NQButton.cpp:2448:            NQScrollText* st = new NQScrollText(this);
+CustomControl/NQButton.cpp:2470:                NQButton* ctrl = new NQButton(st);
+CustomControl/NQButton.cpp:2511:            NQTextExtend *tmp = new NQTextExtend(this);
+CustomControl/NQButton.cpp:3330:            m_data->m_animSelectIn = new NQPropertyAnimation(this);
+CustomControl/NQButton.cpp:3345:            m_data->m_animSelectOut = new NQPropertyAnimation(this);
+CustomControl/NQButton.cpp:3359:            m_data->m_animSelectTxt = new NQPropertyAnimation(this);
+CustomControl/NQImageStatus.cpp:346:        m_borderPtr = new int[4];
+CustomControl/NQImageStatus.cpp:582:      m_data(new NQImageStatusPrivate())
+CustomControl/NQImageStatus.cpp:1294:        p = new NQCCParticle(this);
+CustomControl/NQImageStatus.cpp:1451:        m_data->m_pCursorRightCover = new NQBorderImage(this);
+CustomControl/NQImageStatus.cpp:1454:        m_data->m_pCursorLeftCover = new NQBorderImage(this);
+CustomControl/NQImageStatus.cpp:1457:        m_data->m_pCursorDownCover = new NQBorderImage(this);
+CustomControl/NQImageStatus.cpp:1460:        m_data->m_pCursorUpCover = new NQBorderImage(this);
+CustomControl/NQImageStatus.cpp:1463:        m_data->m_pCursorDown = new NQBorderImage(this);
+CustomControl/NQImageStatus.cpp:1466:        m_data->m_pCursorRight = new NQBorderImage(this);
+CustomControl/NQImageStatus.cpp:1469:        m_data->m_pCursorLeft = new NQBorderImage(this);
+CustomControl/NQImageStatus.cpp:1472:        m_data->m_pCursorPushRight = new NQBorderImage(this);
+CustomControl/NQImageStatus.cpp:1475:        m_data->m_pCursorPushLeft = new NQBorderImage(this);
+CustomControl/NQImageStatus.cpp:1478:        m_data->m_pCursorPushDown = new NQBorderImage(this);
+CustomControl/NQImageStatus.cpp:1482:        m_data->m_pCursorPushUp = new NQImage(this);
+CustomControl/NQImageStatus.cpp:1486:        m_data->m_pCursorPushUpDis = new NQBorderImage(this);
+CustomControl/NQImageStatus.cpp:1490:        m_data->m_pCursorUpDis = new NQBorderImage(this);
+CustomControl/NQImageStatus.cpp:1496:                NQBorderImage *img = new NQBorderImage(this);
+CustomControl/NQImageStatus.cpp:1718:        m_data->m_pImage = new NQBorderImage(this);
+CustomControl/NQGridField.h:537:        QSGGeometry *geometry = new QSGGeometry(attributeSet(),
+CustomControl/NQGridField.h:698:        QSGGeometry *geometry = new QSGGeometry(attributeSet(), 3);
+CustomControl/NQClimate.cpp:73:    m_data(new NQClimatePrivate(this))
+CustomControl/NQClimate.cpp:528:    m_data->m_carouselbg = new NQItem(this);
+CustomControl/NQClimate.cpp:536:    m_data->m_carousel = new NQCarousel(m_data->m_carouselbg);
+CustomControl/NQClimate.cpp:563:        NQTextExtend* textItem = new NQTextExtend(m_data->m_carousel);
+CustomControl/NQClimate.cpp:621:    QMouseEvent* pressEvent = new QMouseEvent(QMouseEvent::MouseButtonPress, localPos, Qt::LeftButton, Qt::LeftButton, Qt::NoModifier);
+CustomControl/NQClimate.cpp:638:    QMouseEvent* moveEvent = new QMouseEvent(QMouseEvent::MouseMove, localPos, Qt::LeftButton, Qt::LeftButton, Qt::NoModifier);
+CustomControl/NQCarousel.cpp:119:    NQFlickable(*(new NQCarouselPrivate), parent, type)
+CustomControl/NQCarousel.cpp:1047:    m_vCarouselInfo(*(new CarouselInfo)),
+CustomControl/NQCarousel.cpp:1048:    m_hCarouselInfo(*(new CarouselInfo)),
+CustomControl/NQBtnBg.cpp:434:        m_urlPtr = new QUrl[10];
+CustomControl/NQBtnBg.cpp:458:        m_idPtr = new QString[10];
+CustomControl/NQBtnBg.cpp:504:        m_borderPtr = new int[4];
+CustomControl/NQBtnBg.cpp:555:        m_marginPtr = new int[4];
+CustomControl/NQBtnBg.cpp:740:            m_particlePtr = new QString[12];
+CustomControl/NQSubMenuAnimation.cpp:46:        sbmInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:98:        bgInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:161:        lineInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:213:        lineInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:287:        btnInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:345:        btnInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:387:        btnInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:429:        btnInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:513:        itemInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:593:        itemInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:673:        itemInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:729:        itemInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:785:        itemInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:837:        slideListAnimation = new NQBCInitAnimationType();
+CustomControl/NQSubMenuAnimation.cpp:880:        tabLineAnimation = new NQBCInitAnimationType();
+CustomControl/NQGridField.cpp:192:    CameraMoveBy *action = new CameraMoveBy();
+CustomControl/NQGridField.cpp:266:    LightFlick *action = new LightFlick();
+CustomControl/NQGridField.cpp:330:    GridFieldScrollBy *action = new GridFieldScrollBy();
+CustomControl/NQGridField.cpp:604:        m_vertices = new V3F_N3F[m_numOfVertices];
+CustomControl/NQGridField.cpp:605:        m_uvys = new QVector3D[m_numOfVertices];
+CustomControl/NQGridField.cpp:625:        m_indices = new GLushort[m_numOfIndices];
+CustomControl/NQTextBox.cpp:45:    m_fixedTextView = new NQTextExtend;
+CustomControl/NQTextBox.cpp:1037:    m_maskData = new MaskInputData[m_maxLength];
+CustomControl/NQTextBox.cpp:1626:        : NQImplicitSizeItem(*(new NQTextBoxPrivate), parent)
+CustomControl/NQTextBox.cpp:1630:        d->m_pPreEditTxtBg = new NQImage(this);
+CustomControl/NQTextBox.cpp:2519:            d->m_linearGradient = new NQLinearGradient();
+CustomControl/NQTextBox.cpp:2552:            d->m_outline = new NQOutline();
+CustomControl/NQTextBox.cpp:2579:            d->m_shadow = new NQDropShadow();
+CustomControl/NQTextBox.cpp:2608:            d->m_glow = new NQGlow();
+CustomControl/NQTextBox.cpp:4217:        node = new NQTextNode(this);
+CustomControl/NQGBookBtn.cpp:354:        m_baPtr = new QByteArray[10];
+CustomControl/NQGBookBtn.cpp:380:        m_alphaPtr = new float[10];
+CustomControl/NQGBookBtn.cpp:405:        m_idPtr = new QString[10];
+CustomControl/NQGBookBtn.cpp:599:  , m_data(new myGBookBtnPrivate())
+CustomControl/NQGBookBtn.cpp:713:            m_data->m_parList = new NQCCParticle(this);
+CustomControl/NQGBookBtn.cpp:716:        m_data->m_cursorCover.push_back(new NQImage(this));
+CustomControl/NQGBookBtn.cpp:717:        m_data->m_cursorCover.push_back(new NQImage(this));
+CustomControl/NQGBookBtn.cpp:719:            m_data->m_particleCover = new NQImage(this);
+CustomControl/NQGBookBtn.cpp:1273:        m_data->m_txt = new NQTextExtend(this);
+CustomControl/NQDropDownItem.cpp:35:    animGroup = new NQBCInitAnimationBase();
+CustomControl/NQDropDownItem.cpp:248:    NQBCInitAnimationBase::NQBCInitAnimationType *anim = new NQBCInitAnimationBase::NQBCInitAnimationType();
+CustomControl/NQBtnText.cpp:297:        m_stInfoPtr = new int[8];
+CustomControl/NQBitSlider.cpp:95:    , m_data(new myBitSlider())
+CustomControl/NQBitSlider.cpp:98:    m_data->m_bg = new NQImage(this);
+CustomControl/NQBitSlider.cpp:103:    m_data->m_labelOn = new NQText(this);
+CustomControl/NQBitSlider.cpp:112:    m_data->m_labelOff = new NQText(this);
+CustomControl/NQBitSlider.cpp:121:    m_data->m_slider = new NQImage(this);
+CustomControl/NQNode3D.h:170:        NQLight * light = new NQLight(DIRECTIONAL);
+CustomControl/NQNode3D.h:182:        NQLight * light = new NQLight(POINT);
+CustomControl/NQNode3D.h:198:        NQLight * light = new NQLight(SPOT);
+CustomControl/NQMultiColList.cpp:220:    NQGridView(*(new NQMultiColListPrivate), parent, type)
+CustomControl/NQCCListAnimation.cpp:44:        itemInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQCCListAnimation.cpp:92:        otherCtrlInitAnimation = new NQBCInitAnimationType();
+CustomControl/NQCCListAnimation.cpp:123:        loopItemAnimation = new NQBCInitAnimationType();
+CustomControl/NQScaleBar.cpp:554:    , m_data(new myScalebar)
+CustomControl/NQScaleBar.cpp:558:    m_data->m_middle = new NQScalebarM(this);
+CustomControl/NQScaleBar.cpp:560:    m_data->m_sbg = new NQScaleBG(this);
+CustomControl/NQScaleBar.cpp:619:    m_data->m_bgBar = new NQImage(this);
+CustomControl/NQScaleBar.cpp:628:    m_data->m_coverBar = new NQImage(this);
+CustomControl/NQScaleBar.cpp:637:    m_data->m_focusBar = new NQImage(this);
+CustomControl/NQScaleBar.cpp:1113:            m_data->m_cursor.push_back(new NQImage(m_data->m_middle));
+CustomControl/NQScaleBar.cpp:1115:        m_data->m_background = new NQImage(m_data->m_middle);
+CustomControl/NQScaleBar.cpp:1133:        m_data->m_particle.push_back(new NQCCParticle(m_data->m_middle));
+CustomControl/NQScaleBar.cpp:2718:            NQImage* barImg = new NQImage(this);
+CustomControl/NQScaleBar.cpp:2739:            cover = new NQImage(this);
+CustomControl/NQScaleBar.cpp:2801:            NQImage* barImg = new NQImage(this);
+CustomControl/NQFontChangeText.cpp:24:    fontMetrics = new QFontMetrics(this->font ());
+CustomControl/NQTerrain.cpp:157:        : NQItem(*(new NQTerrainPrivate), parent, type)
+CustomControl/NQTerrain.cpp:637:        node = new NQGridFieldGeometryNode();
+CustomControl/NQTerrain.cpp:639:            d->m_intersectnode = new NQIntersectGeometryNode();
+CustomControl/NQTenKey.cpp:684:        m_pImage = new NQImage(this);
+CustomControl/NQTenKey.cpp:697:        m_pTxtBox = new NQTextBox(this);
+CustomControl/NQTenKey.cpp:733:                m_pCompont = new QQmlComponent(&engine, this);
+CustomControl/NQTenKey.cpp:826:        m_pMouseArea = new NQMouseArea(this);
+CustomControl/NQTenKey.cpp:1059:            pButton = new NQButton(this);
+CustomControl/NQTenKey.cpp:1098:                m_pChangeTypeTxtBg = new NQImage(this);
+CustomControl/NQTenKey.cpp:1110:                m_pTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:1125:                m_pTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:1147:                m_pTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:1177:                m_pMapCodeTxtBg = new NQImage(this);
+CustomControl/NQTenKey.cpp:1189:                m_pMapCodeTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:1203:                m_pMapCodeTxtBg = new NQImage(this);
+CustomControl/NQTenKey.cpp:1215:                m_pMapCodeTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:1229:                m_pTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:1257:                m_pTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:1271:                m_pSrchCountTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:1286:                m_pMatchesTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:1302:                m_pTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:1323:                m_pTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:1344:                m_pMapCodeTxtBg = new NQImage(this);
+CustomControl/NQTenKey.cpp:1356:                m_pMapCodeTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:1371:                m_pTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:1446:    NQBtnText *pTxtBtn1 = new NQBtnText(pBtn);
+CustomControl/NQTenKey.cpp:1461:    NQBtnText *pTxtBtn2 = new NQBtnText(pBtn);
+CustomControl/NQTenKey.cpp:1476:    NQBtnText *pTxtBtn3 = new NQBtnText(pBtn);
+CustomControl/NQTenKey.cpp:1506:    NQBtnBg *pBgBtn = new NQBtnBg();
+CustomControl/NQTenKey.cpp:1545:        pBtnMark = new NQBtnMark(pBtn);
+CustomControl/NQTenKey.cpp:1561:                    pBtnMark = new NQBtnMark(pBtn);
+CustomControl/NQTenKey.cpp:1598:        pBtnMark = new NQBtnMark(pBtn);
+CustomControl/NQTenKey.cpp:1636:        pBtnMark = new NQBtnMark(pBtn);
+CustomControl/NQTenKey.cpp:3105:        m_pPopupArea = new NQMouseArea(this);
+CustomControl/NQTenKey.cpp:3119:            m_pToyotaPopupBg = new NQImage(this);
+CustomControl/NQTenKey.cpp:3131:            m_pToyotaPopupBg1 = new NQImage(this);
+CustomControl/NQTenKey.cpp:3143:            m_pToyotaPopupBg2 = new NQImage(this);
+CustomControl/NQTenKey.cpp:3155:            m_pToyotaPopupBg3 = new NQImage(this);
+CustomControl/NQTenKey.cpp:3167:            m_pToyotaText = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:3183:            m_pPopupRect = new NQRectangle(this);
+CustomControl/NQTenKey.cpp:3195:            m_pPopupRectRightBottom = new NQRectangle(this);
+CustomControl/NQTenKey.cpp:3207:            m_pPopupBordImage = new NQBorderImage(this);
+CustomControl/NQTenKey.cpp:3230:        m_pPopupTxt = new NQTextExtend(this);
+CustomControl/NQTenKey.cpp:3252:        m_pPopupBack = new NQButton(this);
+CustomControl/NQTenKey.cpp:3266:            NQBtnBg *pBgBtn = new NQBtnBg();
+CustomControl/NQTenKey.cpp:3290:            NQBtnMark *pBtnMark = new NQBtnMark(m_pPopupBack);
+CustomControl/NQTenKey.cpp:3331:        m_pPopupNumber = new NQButton(this);
+CustomControl/NQTenKey.cpp:3346:            NQBtnBg *pBgBtn = new NQBtnBg();
+CustomControl/NQTenKey.cpp:3371:            NQBtnText *pBtnTxt = new NQBtnText(m_pPopupNumber);
+CustomControl/NQTenKey.cpp:3407:        m_pPopupEnglish = new NQButton(this);
+CustomControl/NQTenKey.cpp:3421:            NQBtnBg *pBgBtn = new NQBtnBg();
+CustomControl/NQTenKey.cpp:3446:            NQBtnText *pBtnTxt = new NQBtnText(m_pPopupEnglish);
+CustomControl/NQTenKey.cpp:3839:        m_pFormatCursor = new NQImage(this);
+CustomControl/NQTenKey.cpp:3889:            m_pFormatTxt[i] = new NQTextExtend(this);
+CustomControl/NQBtnMark.cpp:314:        m_urlPtr = new QUrl[10];
+CustomControl/NQBtnMark.cpp:342:        m_idPtr = new QString[10];
+CustomControl/NQSubMenu.cpp:312:        : NQCCList((new NQSubMenuPrivate), parent, type)
+CustomControl/NQSubMenu.cpp:1225:    initAnim = new NQSubMenuAnimation();
+CustomControl/NQScrollText.cpp:297:  , m_data(new qmlScrollTextPrivate())
+CustomControl/NQScrollText.cpp:313:        m_data->m_Label = new NQTextExtend(this);
+CustomControl/NQScrollText.cpp:1132:        m_data->m_scrollAnim = new NQPropertyAnimation(this);
+CustomControl/NQStatusCtrl.cpp:68:    m_gesture = new NQGestureItem(this);
+CustomControl/NQProgressBar.cpp:66:    , m_data(new myProgressPrivate)
+CustomControl/NQHorizonalList.cpp:69:    : NQItemView(*(new NQHorizonalListPrivate), parent, type)
+CustomControl/NQHorizonalList.cpp:633:    return new NQHorizonalListAttached(obj);
+CustomControl/NQHorizonalList.cpp:1126:        QMouseEvent* event = new QMouseEvent(QMouseEvent::MouseMove, d->m_startScene, Qt::LeftButton, Qt::LeftButton, Qt::NoModifier);
+CustomControl/NQHorizonalList.cpp:1708:    return new FxHorizonalListItemSG(item, q, false);
+CustomControl/NQHorizonalList.cpp:2648:            QMouseEvent* event = new QMouseEvent(QMouseEvent::MouseMove, m_startScene, Qt::LeftButton, Qt::LeftButton, Qt::NoModifier);
+CustomControl/NQHorizonalList.cpp:2681:            QMouseEvent* event = new QMouseEvent(QMouseEvent::MouseMove, m_startScene, Qt::LeftButton, Qt::LeftButton, Qt::NoModifier);
+CustomControl/NQHorizonalList.cpp:2719:            QMouseEvent* event = new QMouseEvent(QMouseEvent::MouseMove, m_startScene, Qt::LeftButton, Qt::LeftButton, Qt::NoModifier);
+CustomControl/NQHorizonalList.cpp:2752:            QMouseEvent* event = new QMouseEvent(QMouseEvent::MouseMove, m_startScene, Qt::LeftButton, Qt::LeftButton, Qt::NoModifier);
+CustomControl/NQHorizonalList.cpp:2812:        QQmlContext *context = new QQmlContext(
+CustomControl/NQHorizonalList.cpp:2838:    m_sourceItem = new FxHorizonalListItemSG(item, q, true);
+CustomControl/NQTerrain_p.h:116:        m_scrollAnimation = new NQScrollAnimation();
+CustomControl/NQCCParticle.cpp:170:        QSGGeometry *geometry = new QSGGeometry(attributeSet(), m_geometryNum);
+CustomControl/NQCCParticle.cpp:208:                material->state()->texture = new QSGPlainTexture;
+CustomControl/NQCCParticle.cpp:250:    m_particles = new NQCCParticle::ParticleData[m_totalParticles];
+CustomControl/NQCCParticle.cpp:497:    : NQItem(*(new NQCCParticlePrivate), parent, type)
+CustomControl/NQCCParticle.cpp:858:        node = new NQParticleGeometryNode();
+CustomControl/NQCCList.cpp:249:        : NQListView((new NQCCListPrivate), parent, type)
+CustomControl/NQCCList.cpp:3812:        QQuickShaderEffectSource *shaderHeader = new QQuickShaderEffectSource();
+CustomControl/NQCCList.cpp:3837:                QQuickShaderEffectSource *shaderSource = new QQuickShaderEffectSource();
+CustomControl/NQCCList.cpp:3931:                QQuickShaderEffectSource *shaderSource = new QQuickShaderEffectSource();
+CustomControl/NQTextExtend.cpp:523:            m_linearGradient = new NQLinearGradient();
+CustomControl/NQTextExtend.cpp:554:            m_outline = new NQOutline();
+CustomControl/NQTextExtend.cpp:579:            m_shadow = new NQDropShadow();
+CustomControl/NQTextExtend.cpp:606:            m_glow = new NQGlow();
+CustomControl/NQSymbolText.cpp:356:            NQImage *img = new NQImage(this);
+CustomControl/NQSymbolText.cpp:377:            NQTextExtend* onePartText = new NQTextExtend(this);
+CustomControl/NQSymbolText.cpp:410:            NQTextExtend *nextLineText = new NQTextExtend(this);
+CustomControl/NQSliderAnimation.cpp:32:        ctrlAnimation = new NQBCInitAnimationType();
+CustomControl/NQSlider.cpp:1621:        initAnimGroup = new NQSliderAnimation();
+CustomControl/NQMultiLineText.cpp:83:    NQFlickable(*(new NQMultiLineTextPrivate), parent, type)
+CustomControl/NQMultiLineText.cpp:88:    nqText = new NQTextExtend(this);
+CustomControl/NQMultiLineText.cpp:1167:                NQTextExtend *t = new NQTextExtend(this);
+CustomControl/NQMultiLineText.cpp:1179:                    NQTextExtend *text = new NQTextExtend(this);
+CustomControl/NQMultiLineText.cpp:1189:    NQTextExtend *text1 = new NQTextExtend(this);
+CustomControl/NQMultiLineText.cpp:1630:            QQuickShaderEffectSource *shaderSource = new QQuickShaderEffectSource();
+CustomControl/NQMultiLineText.cpp:1677:        QQuickShaderEffectSource *shaderSource = new QQuickShaderEffectSource();
+CustomControl/NQMultiLineText.cpp:1740:            QQuickShaderEffectSource *shaderSource = new QQuickShaderEffectSource();
+CustomControl/NQMultiLineText.cpp:1801:        QQuickShaderEffectSource *shaderSource = new QQuickShaderEffectSource();
+include/qmlframework/NQItem.h:765:      , m_padEventHandlerListener(new NQItemDestroyedListener())
+mist/NQMistImpl.cpp:143:        m_pStmRtl = new stmlua4app::StmLuaRun(&m_StmCB);
+PVRT/NQPVRTTexture.h:172:        Data = new quint8[u32DataSize];
+PVRT/NQPVRTTexture.h:213:            Data = new quint8[u32DataSize];
+PVRT/NQPVRTTextureAPI.h:55:        this->pHeaderV3 = new NQPVRTextureHeaderV3;
+PVRT/NQPVRTTextureAPI.cpp:425:                    currentMetaData.Data = new quint8[u32DataSize];
+PVRT/NQPVRTTexture.cpp:266:        mbBumpData.Data = new quint8[8];
+PVRT/NQPVRTTexture.cpp:292:        mbTexOrientation.Data = new quint8[3];
+ResourceManager/NQResourceManager.cpp:56:    : m_sysImgCache(new NGFrequencyCache<NGImgResID, QImage>())
+ResourceManager/NQResourceManager.cpp:57:    , m_sysComImgCache(new NGFrequencyCache<NGImgResID, QImage>())
+ResourceManager/NQResourceManager.cpp:58:    , m_sysStrCache(new NGFrequencyCache<NGStrResID, QString>())
+ResourceManager/NQResourceManager.cpp:59:    , m_sysFontCache(new NGFrequencyCache<QString, QFont>())
+ResourceManager/NQResourceManager.cpp:60:    , m_sysColorCache(new NGFrequencyCache<QString, QColor>())
+System/NQPadTouchManager.cpp:139:        s_instance = new NQPadTouchManager();
+System/NQPadTouchManager.cpp:155:m_touchDevice(new QTouchDevice())
+System/NQPadTouchManager.cpp:224:        touchEvent = new QTouchEvent(eventType, m_touchDevice, Qt::NoModifier, Qt::TouchPointPressed, m_touchEventSequence.curPoints().values());
+System/NQPadTouchManager.cpp:231:            touchEvent = new QTouchEvent(eventType, m_touchDevice, Qt::NoModifier, Qt::TouchPointPressed, m_touchEventSequence.curPoints().values());
+System/NQPadTouchManager.cpp:237:            touchEvent = new QTouchEvent(eventType, m_touchDevice, Qt::NoModifier, 0, m_touchEventSequence.curPoints().values());
+System/NQPadTouchManager.cpp:243:            touchEvent = new QTouchEvent(eventType, m_touchDevice, Qt::NoModifier, Qt::TouchPointReleased, m_touchEventSequence.curPoints().values());
+System/NQPadTouchManager.cpp:250:            touchEvent = new QTouchEvent(eventType, m_touchDevice, Qt::NoModifier, Qt::TouchPointReleased, m_touchEventSequence.curPoints().values());
+System/NQGesture.cpp:88:    : QObject(*new NQGesturePrivate, 0)
+System/NQGesture.cpp:262:    : NQGesture(*new NQFlickGesturePrivate)
+System/NQGesture.cpp:382:    : NQGesture(*new NQTapGesturePrivate)
+System/NQGesture.cpp:454:    : NQGesture(*new NQDoubleTapGesturePrivate)
+System/NQGesture.cpp:541:    : NQGesture(*new NQShortPressGesturePrivate)
+System/NQGesture.cpp:642:    : NQGesture(*new NQLongPressGesturePrivate)
+System/NQGesture.cpp:769:    : NQGesture(*new NQPinchGesturePrivate)
+System/NQGesture.cpp:880:    : NQGesture(*new NQPadDepressGesturePrivate)
+System/NQGesture.cpp:984:: NQGesture(*new NQDragGesturePrivate)
+System/NQGesture.cpp:1113:    : NQGesture(*new NQ2DragGesturePrivate)
+System/NQGesture.cpp:1232:    : NQGesture(*new NQRotateGesturePrivate)
+System/NQGesture.cpp:1392:    NQGesture(*new NQ2FlickGesturePrivate)
+System/NQGesture.cpp:1504:    m_data(new NQGestureEventPrivate())
+System/NQGesture.cpp:1546:        NQFlickGesture* flick = new NQFlickGesture();
+System/NQGesture.cpp:1556:        NQTapGesture* tap = new NQTapGesture();
+System/NQGesture.cpp:1566:        NQDoubleTapGesture* doubleTap = new NQDoubleTapGesture();
+System/NQGesture.cpp:1576:        NQShortPressGesture* shortPress = new NQShortPressGesture();
+System/NQGesture.cpp:1586:        NQLongPressGesture* longPress = new NQLongPressGesture();
+System/NQGesture.cpp:1596:        NQPinchGesture* pinch = new NQPinchGesture();
+System/NQGesture.cpp:1606:        NQPadDepressGesture* depress = new NQPadDepressGesture();
+System/NQGesture.cpp:1616:        NQDragGesture* drag = new NQDragGesture();
+System/NQGesture.cpp:1626:        NQ2DragGesture* drag = new NQ2DragGesture();
+System/NQGesture.cpp:1636:        NQRotateGesture* rotate = new NQRotateGesture();
+System/NQGesture.cpp:1646:        NQ2FlickGesture* flick = new NQ2FlickGesture();
+System/NQUserOperationListener.cpp:40:    , m_delegate(new NQIOperationListener)
+System/NQUserOperationListener.cpp:41:    , m_listener(new NGUserOperationListener(m_delegate.data()))
+System/NQSyncControl.cpp:41:        m_Self = new NQSyncControl();
+System/NQSyncControl.cpp:125:        pSyncIF = new NQUISyncIF(groupId, surfaceId);
+System/NQSyncControl.cpp:145:        m_UISelfSyncIF = new NQUISyncIF(groupId, -1);
+System/NQSystemDelegate.cpp:57:    NQRootWindow* rootWindow = new NQRootWindow();
+System/NQSystemDelegate.cpp:69:    NQLayerBase* pLayer = new NQLayerBase(layerId, parent);
+System/NQSystemDelegate.cpp:84:    NQ3DLayer* pLayer = new NQ3DLayer(layerId);
+System/NQSystemDelegate.cpp:106:    NQApplication *app = new NQApplication(config);
+System/NQSystemDelegate.cpp:123:        m_screenSpliter = new NQScreenSpliter;
+System/NQ3DLayer.cpp:89:        m_cusTitleBkg = new NQImage(this);
+System/NQ3DLayer.cpp:106:        m_cusBkg = new NQImage(this);
+System/NQ3DLayer.cpp:123:        m_cusBkg = new NQImage(this);
+System/NQ3DLayer.cpp:141:        m_cusBkgColor = new NQRectangle(this);
+System/NQTransferManager.cpp:46:        new NQTransferManager();
+System/NQNotifier.cpp:26:        new NQNotifier();
+System/NQFocusViewChangedLisener.cpp:54:    : m_delegate(new NQFocusViewChangedDelegate(this))
+System/NQApplication.cpp:49:    m_context = new NQApplicationCtx(this);
+System/NQApplication.cpp:148:    NQLayerBase* pLayer = new NQLayerBase(id, pContentItem);
+System/NQApplication.cpp:168:    NQMainWindow* mainWin = new NQMainWindow(appId(), parent);
+System/NQApplication.cpp:300:    , fileLoader(new NQQmlFileLoader(app))
+System/NQApplication.cpp:301:    , api(new NQAPIImpl(app->appId(), app))
+System/NQApplication.cpp:302:    , mist(new NQMistImpl(app->appId(), app))
+System/NQApplication.cpp:303:    , appCtrlNotifyHandler(new NQAppCtrlNotifyHandler(app))
+System/NQApplication.cpp:308:        qmlCtx = new QQmlContext(NQRootWindow::Instance()->rootContext());
+System/NQApplication.cpp:309:        pQmlCtx = new QQmlContext(qmlCtx);
+System/NQGestureManager.cpp:254:    NQGestureEvent* gEvent = new NQGestureEvent();
+System/NQGestureManager.cpp:286:                NQFlickGesture* flickGesture = new NQFlickGesture();
+System/NQGestureManager.cpp:310:                NQTapGesture* tapGesture = new NQTapGesture();
+System/NQGestureManager.cpp:327:                NQDoubleTapGesture* doubleTapGesture = new NQDoubleTapGesture();
+System/NQGestureManager.cpp:344:                NQShortPressGesture* shortPressGesture = new NQShortPressGesture();
+System/NQGestureManager.cpp:361:                NQLongPressGesture* longPressGesture = new NQLongPressGesture();
+System/NQGestureManager.cpp:383:                NQPinchGesture* pinchGesture = new NQPinchGesture();
+System/NQGestureManager.cpp:408:                NQDragGesture* dragGesture = new NQDragGesture();
+System/NQGestureManager.cpp:431:                NQ2DragGesture* twoDragGesture = new NQ2DragGesture();
+System/NQGestureManager.cpp:455:                NQRotateGesture* rotateGesture = new NQRotateGesture();
+System/NQGestureManager.cpp:477:                 NQ2FlickGesture* twoFlickGesture = new NQ2FlickGesture();
+System/NQGestureManager.cpp:518:            NQFlickGesture* flickGesture = new NQFlickGesture();
+System/NQGestureManager.cpp:539:            NQTapGesture* tapGesture = new NQTapGesture();
+System/NQGestureManager.cpp:557:            NQDoubleTapGesture* doubleTapGesture = new NQDoubleTapGesture();
+System/NQGestureManager.cpp:575:            NQShortPressGesture* shortPressGesture = new NQShortPressGesture();
+System/NQGestureManager.cpp:593:            NQLongPressGesture* longPressGesture = new NQLongPressGesture();
+System/NQGestureManager.cpp:611:            NQPinchGesture* pinchGesture = new NQPinchGesture();
+System/NQGestureManager.cpp:632:            NQPadDepressGesture* padDepressGesture = new NQPadDepressGesture();
+System/NQGestureManager.cpp:652:            NQDragGesture* dragGesture = new NQDragGesture();
+System/NQGestureManager.cpp:673:            NQ2DragGesture* twoDragGesture = new NQ2DragGesture();
+System/NQGestureManager.cpp:693:            NQRotateGesture* rotateGesture = new NQRotateGesture();
+System/NQGestureManager.cpp:714:            NQ2FlickGesture* twoFlickGesture = new NQ2FlickGesture();
+System/NQGestureManager.cpp:741:        s_instance = new NQGestureManager();
+WindowSystem/NQDivView.cpp:52:    m_pInvisibleItem = new NQItem(this);
+WindowSystem/NQDivView.cpp:303:        m_mainView = new NQMainView(this);
+WindowSystem/NQDivView.cpp:320:        m_subFuncView = new NQItem(this);
+WindowSystem/NQDivView.cpp:349:        m_spliterAnimGroup = new NQParallelAnimation;
+WindowSystem/NQDivView.cpp:352:        m_scrnSpliterAnim = new QQuickPropertyAnimation;
+WindowSystem/NQDivView.cpp:438:                m_scrnSlideAnim = new NQPropertyAnimation;
+WindowSystem/NQDivView.cpp:520:        m_mainViewPos.insert(appId, new QPointF(P_NO_SIDE, 0.));  // default for 800x480
+WindowSystem/NQFragmentView.cpp:63:        m_creator = new NQScreenCreator(NQScreenCreator::SCT_MainScreen);
+WindowSystem/NQFragmentView.cpp:66:        m_creator = new NQScreenCreator(NQScreenCreator::SCT_SideScreen);
+WindowSystem/NQFragmentView.cpp:77:    m_pTimer = new NQTimer(this);
+WindowSystem/NQTransView.cpp:53:        s_Inst = new NQTransView();
+WindowSystem/NQTransView.cpp:99:    m_pTimer = new NQTimer(this);
+WindowSystem/NQRootWindow.cpp:135:    m_frameCallback = new NQFrameCallback(this);
+WindowSystem/NQQuickview.cpp:234:        engine = new QQmlEngine(q);
+WindowSystem/NQQuickview.cpp:255:    touchReceiverDestroyedListener(new NQTouchReceiverDestroyedListener()),
+WindowSystem/NQQuickview.cpp:303:        component = new QQmlComponent(engine.data(), source, q);
+WindowSystem/NQQuickview.cpp:338:    NQQuickView *view = new NQQuickView;
+WindowSystem/NQQuickview.cpp:366:: QQuickWindow(*(new NQQuickViewPrivate), parent)
+WindowSystem/NQQuickview.cpp:368:        , mCallBack(new NQQuickViewSyncCallBack(this))
+WindowSystem/NQQuickview.cpp:383:: QQuickWindow(*(new NQQuickViewPrivate), parent)
+WindowSystem/NQQuickview.cpp:385:        , mCallBack(new NQQuickViewSyncCallBack(this))
+WindowSystem/NQQuickview.cpp:405:    : QQuickWindow(*(new NQQuickViewPrivate), parent)
+WindowSystem/NQQuickview.cpp:407:    , mCallBack(new NQQuickViewSyncCallBack(this))
+WindowSystem/NQQuickview.cpp:687:            delayedTouch = new QTouchEvent(event->type(), event->device(), event->modifiers(), event->touchPointStates(), event->touchPoints());
+WindowSystem/NQQuickview.cpp:738:            delayedTouch = new QTouchEvent(event->type(), event->device(), event->modifiers(), event->touchPointStates(), event->touchPoints());
+WindowSystem/NQQuickview.cpp:1179:            QTouchEvent* touchEvent = new QTouchEvent(QEvent::TouchCancel, mLastTouchEvent->device(), Qt::NoModifier, Qt::TouchPointReleased, touchPoints);
+WindowSystem/NQQuickview.cpp:1511:            d->mLastTouchEvent = new QTouchEvent(*touch);
+WindowSystem/NQQuickview.cpp:1591:    NQWaylandDrawDoneEvent* ev = new NQWaylandDrawDoneEvent(winId, serial);
+QmlAppLaunch/NQMsgAttacher.h:69:        QEvent *updateEvent = new QEvent((QEvent::Type)(MESSAGELOOPUPDATE));
+QmlAppLaunch/NQAppLauncher.cpp:268:    m_application = new NQGuiApplication(argc, argv);
+QmlAppLaunch/NQAppLauncher.cpp:269:    m_msgattacher.reset(new NQMsgAttacher);
+QmlAppLaunch/NQAppLauncher.cpp:270:    m_msgloop.reset(new NGMsgLoop(MainLoop, *m_msgattacher.get()));
+QmlAppLaunch/NQAppLauncher.cpp:331:    AppLauncherBase* launcher = new NQAppLauncher(m_appType, appId);
+QmlAppLaunch/NQAppLauncher.cpp:355:        return new NQAppLauncherEntry(AppType_Qml, argc, argv);
+QmlAppLaunch/NQAppLauncher.cpp:358:        return new NQAppLauncherEntryTest(AppType_QmlTest, argc, argv);

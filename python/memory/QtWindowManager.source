@@ -1,0 +1,10 @@
+NQWMWindow.cpp:65:    NQWMShmSurface* shmSurface = new NQWMShmSurface(info, this, info->winId);
+NQWMWindow.cpp:78:    NQWMEglSurface* eglSurface = new NQWMEglSurface(info, this, info->winId);
+NQWMSurface.cpp:51:mSurfaceHelper(new nutshell::NCSurfaceHelper()),
+NQWMSurface.cpp:89:        mListener = new NQWMSurfaceCallback(listener, mSurfaceId, this, usrData);
+NQWMSurface.cpp:99:        mListener = new NQWMSurfaceCallback(listener, mSurfaceId, this, usrData);
+NQWMDisplay.cpp:32:    mDispHelper = new nutshell::NCDisplayHelper();
+NQWMDisplay.cpp:37:    mNCWindow = new nutshell::NCWindow();
+NQWMDisplay.cpp:153:        win = new NQWMWindow(winId);
+NQWMImpl.cpp:51:            sInstance = new NQWMImpl();
+NQWMImpl.cpp:103:    m_disp[info->dispNo] = new NQWMDisplay(info);

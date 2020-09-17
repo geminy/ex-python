@@ -1,0 +1,10 @@
+new NQWMShmSurface
+new NQWMEglSurface
+new nutshell::NCSurfaceHelper
+new NQWMSurfaceCallback
+new NQWMSurfaceCallback
+new nutshell::NCDisplayHelper
+new nutshell::NCWindow
+new NQWMWindow
+new NQWMImpl
+new NQWMDisplay
